@@ -1,0 +1,37 @@
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card {
+  margin: 10px;
+  border: black 1px solid;
+  width: 100px;
+  height: 150px;
+  padding: 10px;
+}
+p {
+  margin: 0;
+}
+.center {
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
+.bottom {
+  transform: rotate(180deg);
+}
+.red,
+li:nth-child(even) {
+  color: red;
+}
+ol {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 3vw;
+}
+button {
+  margin: 1vw;
+}
+li::marker {
+  color: black;
+}
